@@ -1,0 +1,207 @@
+#open-position-detail .requirement > ul {
+    padding: 0 !important;
+    margin-top: 27px !important;
+}
+
+#open-position-detail .requirement > ul li > ul {
+    padding-left: 30px !important;
+    margin-top: 0 !important;
+}
+
+.benefits h2 {
+    margin-bottom: 10px !important;
+}
+
+ul {
+    list-style-position: outside !important;
+}
+
+.benefits p{
+    margin-top: 25px;
+}
+
+.notice-apply p  {
+    margin-top: 25px;
+    margin-bottom: 25px !important;
+}
+
+.description > h2{
+    margin-top: 50px !important;
+}
+
+.job-title {
+    margin-bottom: 0 !important;
+}
+
+.apply-before{
+    margin-top: 0 !important;
+}
+
+#btn-app{
+    background-color: #73d7ff;
+    border: medium none !important;
+    color: #fff !important;
+    font-weight:300;
+    font-size: 22px;
+    padding: 5px 40px;
+}
+
+.btn-app, .btn-ok {
+    background-color: #73d7ff;
+    border: medium none !important;
+    color: #fff !important;
+    font-weight:300;
+    font-size: 17px;
+    padding: 2px 25px;
+    height: 40px !important;
+    width: 100px !important;
+    margin-left: 10px;
+}
+
+.btn-close {
+    background-color: #c3c3c3;
+    border: medium none !important;
+    color: #fff !important;
+    font-weight:300;
+    font-size: 17px;
+    padding: 2px 25px;
+    height: 40px !important;
+    width: 100px !important;
+}
+
+.captcha{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.eremail, .ercaptcha, .notice{
+    margin-bottom: 0 !important;
+}
+
+.notice{
+    margin-top: 20px!important;
+}
+
+.app-email, .app-code{
+    width: 100%;
+    padding-left: 10px !important;
+}
+
+.close-button{
+    background: url("../Content/Images/close_small.png") no-repeat center center;
+    background-size: 30px 30px;
+    margin-top:20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 0 !important;
+    position: relative;
+    float: right;
+}
+
+#apply-form, #error-form, #success-form{
+    overflow-y: auto !important;
+}
+
+.modal-showflag{
+    display: block !important;
+}
+
+.modal-dialog{
+    max-width: 615px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 30px !important;
+}
+
+.modal-content{
+    border-radius: 0 !important;
+}
+
+.modal-header{
+    border: none !important;
+    background: #f2f2f2;
+    height: auto;
+    padding: 1px 30px 0 !important;
+}
+
+.modal-body{
+    padding: 20px 30px 15px !important;
+}
+
+.modal-title{
+   margin-bottom: 0 !important;
+   padding-bottom: 5px !important;
+   padding-top: 20px !important;
+   margin-right: 40px !important;
+   margin-top: 0 !important;
+}
+
+.modal-footer{
+    padding: 0 30px 40px !important;
+    margin-top: 10px !important;
+    background: #ffffff;
+    border-top: none !important;
+}
+
+.img-captcha-refresh{
+    cursor:pointer;
+}
+
+#eremail, #ercaptcha{
+    display: none;
+}
+
+.app-email-data{
+    display: none;
+}
+
+@media(min-width: 240px) and (max-width: 767px){
+    .description > h2{
+        margin-top: 30px !important;
+    }
+
+    .apply-before{
+        text-align: center;
+    }
+}
+
+@media (min-width: 240px) and (max-width: 480px){
+     #content ul {
+        margin-left: 10px !important;
+    }
+
+    .modal-header, .modal-body, modal-footer{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+     .close-button {
+        margin-top: 20px;
+        background-size: 20px 20px;
+    }
+}
+
+@media (max-width: 650px){
+    .modal-dialog{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+}
+
+@media (min-width: 480px) and (max-width: 767px ){
+    .close-button {
+        margin-top: 18px;
+        background-size: 25px 25px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .description > h2{
+        margin-top: 40px !important;
+    }
+
+    .apply-before{
+        text-align: center;
+    }
+}
+
